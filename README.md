@@ -14,3 +14,23 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+# React + Vite (Türkçe)
+
+Bu şablon, React'in Vite ile HMR (Hot Module Replacement) ve bazı ESLint kuralları ile çalışması için minimal bir kurulum sağlar.
+
+Şu anda iki resmi eklenti mevcuttur:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) Hızlı Yenileme (Fast Refresh) için [Babel](https://babeljs.io/) (veya [rolldown-vite](https://vite.dev/guide/rolldown) içinde kullanıldığında [oxc](https://oxc.rs)) kullanır.
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) Hızlı Yenileme (Fast Refresh) için [SWC](https://swc.rs/) kullanır.
+
+## React Compiler (React Derleyicisi)
+
+React Compiler, geliştirme ve derleme performansına etkisi nedeniyle bu şablonda etkinleştirilmemiştir. Eklemek için [bu dokümantasyona](https://react.dev/learn/react-compiler/installation) bakabilirsiniz.
+
+## ESLint Yapılandırmasını Genişletme
+
+Eğer bir prodüksiyon (canlı) uygulaması geliştiriyorsanız, tip-duyarlı (type-aware) lint kurallarının etkin olduğu TypeScript kullanmanızı öneririz. Projenize TypeScript ve [`typescript-eslint`](https://typescript-eslint.io) entegrasyonu hakkında bilgi için [TS şablonuna](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) göz atın.
+
